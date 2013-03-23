@@ -30,8 +30,8 @@ class BladeConfig(object):
                 'heap_check' : '',
                 'gperftools_lib' : '#tcmalloc',
                 'gperftools_debug_lib' : '#tcmalloc_debug',
-                'gtest_lib' : '#gtest',
-                'gtest_main_lib' : '#gtest_main'
+                'gtest_lib' : 'thirdparty/gtest:gtest',
+                'gtest_main_lib' : 'thirdparty/gtest:gtest_main'
             },
 
             'distcc_config' : {
