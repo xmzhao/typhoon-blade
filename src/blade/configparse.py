@@ -49,11 +49,12 @@ class BladeConfig(object):
             },
 
             'protoc_config' : {
-                'protoc' : 'protoc',
-                'protobuf_lib': '#protobuf',
+                'protoc' : '/usr/local/bin/protoc',
+                'protobuf_lib': 'thirdparty/protobuf:protobuf',
                 'protobuf_path' : 'thirdparty',
-                'protobuf_include_path' :
-                'thirdparty', # splitted by space,
+                'protobuf_include_path' : 
+                '/usr/local/include/google', # splitted by space,
+                
                 'protobuf_php_path' :
                 'thirdparty/Protobuf-PHP/library',
                 'protoc_php_plugin' :
